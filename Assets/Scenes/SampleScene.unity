@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2457501662677208385, guid: 68fd0988a122c5146abdc1771983d2cf, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2457501662677208385, guid: 68fd0988a122c5146abdc1771983d2cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3256454668070213528, guid: 68fd0988a122c5146abdc1771983d2cf, type: 3}
+      propertyPath: m_Name
+      value: er for referenced Transform in Prefab instance (1)tance (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68fd0988a122c5146abdc1771983d2cf, type: 3}
 --- !u!1 &170686165
@@ -221,7 +225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -776.2, y: -289.77505}
+  m_AnchoredPosition: {x: -994.4, y: -289.77505}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &170686167
@@ -300,7 +304,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3aacf81d5667c6d4a82faf667cf49d2b, type: 2}
     - target: {fileID: 5974496477196311750, guid: 7114542c1822a834d9ea0ea4d56731f3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5974496477196311750, guid: 7114542c1822a834d9ea0ea4d56731f3, type: 3}
       propertyPath: m_LocalPosition.x
