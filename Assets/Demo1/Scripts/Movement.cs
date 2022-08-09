@@ -23,6 +23,11 @@ public class Movement : MonoBehaviour
         return _isEndPointReached;
     }
 
+    public bool IsHousePointReached()
+    {
+        return _isHousePointReached;
+    }
+
     private void Start()
     {
         _speed = 1F;
@@ -44,11 +49,6 @@ public class Movement : MonoBehaviour
             transform.LookAt(target.transform);
             transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
         }
-    }
-
-    public bool IsHousePointReached()
-    {
-        return _isHousePointReached;
     }
 
     private IEnumerator PointReached()
