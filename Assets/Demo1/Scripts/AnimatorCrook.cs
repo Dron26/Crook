@@ -19,7 +19,7 @@ public class AnimatorCrook: MonoBehaviour
         _isWalk = true;
     }
 
-    void Update()
+    private void Update()
     {
         _isWalk = !_movement.IsPointReached();
         _isEndPoinReach = _movement.IsPointEndReached();
