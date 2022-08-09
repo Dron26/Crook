@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using DG.Tweening.Core;
 
 public class VolumeChanger: MonoBehaviour
 {
@@ -21,6 +18,7 @@ public class VolumeChanger: MonoBehaviour
         _minVolume = 0;
         _duration = 4f;
     }
+
     private void Update()
     {
         _isPlaying = _point.GetComponent<PointHouse>().IsAlarmWork();

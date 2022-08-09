@@ -8,7 +8,6 @@ public class Door : MonoBehaviour
     [SerializeField] private OutsideSide _outsideSide;
     [SerializeField] private InsideSide _insideSide;
 
-    
     private Animator _animator;
     private bool _isSomeoneComeFromOutside;
     private bool _isSomeoneComeFromIn;

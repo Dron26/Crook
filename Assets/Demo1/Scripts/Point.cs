@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Point : MonoBehaviour
 {
@@ -11,6 +8,7 @@ public class Point : MonoBehaviour
     {
         _collider=GetComponent<Collider>();
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.GetComponent<Crook>())

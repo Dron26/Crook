@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -13,6 +12,16 @@ public class Movement : MonoBehaviour
     private bool _isEndPointReached;
     private float _timeWaiting;
     private bool _isHousePointReached;
+
+    public bool IsPointReached()
+    {
+        return _isPointReached;
+    }
+
+    public bool IsPointEndReached()
+    {
+        return _isEndPointReached;
+    }
 
     private void Start()
     {
@@ -37,16 +46,6 @@ public class Movement : MonoBehaviour
         }
     }
 
-    public bool IsPointReached()
-    {
-        return _isPointReached;
-    }
-
-    public bool IsPointEndReached()
-    {
-        return _isEndPointReached;
-    }
-
     public bool IsHousePointReached()
     {
         return _isHousePointReached;
@@ -67,7 +66,7 @@ public class Movement : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
-     private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {       
         Transform target = _points[_currentPoint];
 

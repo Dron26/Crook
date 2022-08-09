@@ -1,10 +1,14 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PointHouse : MonoBehaviour
 {    
     private bool _isAlarmWork;
+
+    public bool IsAlarmWork()
+    {
+        return _isAlarmWork;
+    }
 
     private void OnTriggerEnter(Collider other)
     {     
@@ -20,10 +24,6 @@ public class PointHouse : MonoBehaviour
        {
             StartCoroutine(RotateLight());          
        }
-    }
-    public bool IsAlarmWork()
-    {
-        return _isAlarmWork;
     }
 
     private IEnumerator RotateLight()

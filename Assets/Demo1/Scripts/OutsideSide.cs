@@ -1,10 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class OutsideSide : MonoBehaviour
 {
     private bool _isSomeoneComeUp;
+
+    public bool IsSomeoneComeOutside()
+    {
+        return _isSomeoneComeUp;
+    }
 
     private void Start()
     {
@@ -25,10 +28,5 @@ public class OutsideSide : MonoBehaviour
         {
             _isSomeoneComeUp = false;
         }
-    }
-
-    public bool IsSomeoneComeOutside()
-    {
-        return _isSomeoneComeUp;
     }
 }

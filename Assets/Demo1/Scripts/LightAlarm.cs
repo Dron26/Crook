@@ -12,12 +12,12 @@ public class LightAlarm: MonoBehaviour
     private Quaternion startRotation;
     private bool _isWork;
 
-
     private void Awake()
     {
         _light=GetComponent<Light>();
     }
-    void Start()
+
+    private void Start()
     {
         float speedX = 10;
         float speedY = 10;
@@ -25,7 +25,7 @@ public class LightAlarm: MonoBehaviour
         startRotation =transform.rotation;
     }
 
-     void Update()
+    private void Update()
     {
         _isWork = _point.GetComponent<PointHouse>().IsAlarmWork();
 

@@ -6,6 +6,11 @@ public class InsideSide : MonoBehaviour
 {
     private bool _isSomeoneComeUp;
 
+    public bool IsSomeoneComeInside()
+    {
+        return _isSomeoneComeUp;
+    }
+
     private void Start()
     {
         _isSomeoneComeUp = false;
@@ -25,10 +30,5 @@ public class InsideSide : MonoBehaviour
         {
             _isSomeoneComeUp = false;
         }
-    }
-
-    public bool IsSomeoneComeInside()
-    {
-        return _isSomeoneComeUp;
     }
 }
