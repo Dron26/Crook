@@ -20,7 +20,12 @@
       "ProjectGuid": "4b0a8c8e-d87b-471f-f913-58682ae968b7",
       "DisplayName": "Weaver.Examples",
       "ColorIndex": 2
+    },
+    "4b68ef9e-d79c-2d6c-7b5d-bf01575e611f": {
+      "ProjectGuid": "4b68ef9e-d79c-2d6c-7b5d-bf01575e611f",
+      "DisplayName": "Assembly-CSharp-firstpass",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
