@@ -148,7 +148,7 @@
     <Compile Include="Assets\Resurses\Demo1\Scripts\LightObserver.cs" />
     <Compile Include="Assets\Resurses\Demo1\Scripts\Door.cs" />
     <Compile Include="Assets\Resurses\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
-    <Compile Include="Assets\Demo2\Scripts\SpawnEnemies.cs" />
+    <Compile Include="Assets\Demo2\Scripts\SpawnerEnemies.cs" />
     <Compile Include="Assets\Resurses\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
     <Compile Include="Assets\Resurses\Standard Assets\Utility\FollowTarget.cs" />
     <Compile Include="Assets\Resurses\Standard Assets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
@@ -179,6 +179,7 @@
     <Compile Include="Assets\Resurses\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\Resurses\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Resurses\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\Demo2\Scripts\Enemies.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resurses\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />

@@ -118,7 +118,7 @@
 -define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/Unity Hub Local/Crook/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Unity Hub Local/SpawnEnemy/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"D:/unity/2021.3.7f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/unity/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/unity/2021.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
